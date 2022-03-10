@@ -1,0 +1,58 @@
+html{
+    box-sizing: border-box;
+}
+/*set background color and size of header and footer boxes.*/
+header, footer{
+    background-color:#7fa8bd;
+    height: 250px;
+    margin: 0px 0px 50px 0px;
+    padding: 10px 0px 50px 0px;
+
+}
+/*set font and color of main heading*/
+h1{
+    color: #FFFD98;
+    font-size: 94px;
+    font-family: bastardilla, Verdana, sans-serif;
+    text-decoration:solid;
+}
+/*set font and color of secondary headings*/
+h2{
+    color: #BDE4A7;
+    font-size: 54;
+    font-family: Verdana, sans-serif;
+}
+/*set background color and font style and color of the entire web page*/
+body{
+    background-color: #d6e4eb;
+    font-family:'Times New Roman', Times, serif;
+    color:#3d6d22;
+}
+/*set certian text to be centered*/
+.center-text{
+    text-align:center;
+}
+/*set style of dividing rule lines*/
+hr{
+    height: 5px;
+    background-color:black;
+}
+/*set style of photo*/
+img{
+    border-radius: 125px;
+    margin: 0 38%;
+}
+/*the next 4 statements set link behavior*/
+a:link{
+    color:#7fff7f;
+}
+a:visited{
+    color:#00ffff;
+}
+a:hover{
+    color:#9fbbcc;
+}
+a:active{
+    color:#fffd98;
+}
+
